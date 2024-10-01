@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <h1>TECHKNIGHTS ASSOCIATION</h1>
+        <h3>PRESENTS</h3>
+        <nav>
+            <ul>
+                <li><a href="#about-section">ABOUT US</a></li>
+                <li><a href="#event-section">EVENT</a></li>
+                <li><a href="#form-section">REGISTER</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about" id="about-section">
+            <h2>ABOUT US</h2>
+            <p>Department Of Computer Science And Business Systems<br>
+            Presenting International Level Symposium On 5th October, 2024<br>
+            "Towen Gen3"</p>
+            
+            <p>We Have Planned To Conduct Technical Event As Well As Non Technical Event With Exciting Prizes!!<br>
+            Techknights Association Welcomes You To Explore A New Horizons</p>
+
+            <p id="wel-mes">
+                Techknights Association Welcomes You <br>
+                To Explore A New Horizons>>
+            </p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-square-instagram fa-lg" id="_1st_icon"></i></a>
+                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube fa-lg"></i></a>
+            </div>
+            <div class="event-info">
+                <span class="date"><i class="fa-regular fa-calendar-days fa-sm"></i>05/10/2024</span>
+                <span class="time"> <i class="fa-solid fa-clock fa-sm"></i>9:00am - 4:00pm</span>
+            </div>
+        </section>
+
+        <section class="event" id="event-section">
+            <h2>FRONTEND MENTOR</h2>
+            <h3>Unlock And Elavate Your Frontend Skills</h3>
+            <div class="msg">
+                <p>
+                    "Frontend Mentor Is An Exiting Event<br>
+                    For Developers,<br>
+                    Where They Need To Code<br>
+                    A Given Web Design Page<br>
+                    Using Html,Css And Javascript."
+                </p>
+            </div>
+        </section>
+
+        <section class="register" id="form-section">
+
+            <div class="form-container">
+                <form>
+                    <h2>REGISTER HERE:</h2>
+                    <h4>FILL THIS FORM</h4>
+                    <label for="name">NAME</label>
+                    <input type="text" id="name" name="name">
+
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email">
+
+                    <label for="contact">CONTACT NUMBER</label>
+                    <input type="tel" id="contact" name="contact">
+
+                    <label for="college">COLLEGE</label>
+                    <input type="text" id="college" name="college">
+
+                    <label for="dept">DEPT</label>
+                    <input type="text" id="dept" name="dept">
+
+                    <label for="year">YEAR</label>
+                    <div class="radio-group group">
+
+                        <input type="radio" id="year1" name="year" value="1st">
+                        <label for="year1">1st</label>
+                        <br>
+
+                        <input type="radio" id="year2" name="year" value="2nd">
+                        <label for="year2">2nd</label>
+                        <br>
+
+                        <input type="radio" id="year3" name="year" value="3rd">
+                        <label for="year3">3rd</label>
+                        <br>
+
+                        <input type="radio" id="year4" name="year" value="4th">
+                        <label for="year4">4th</label>
+                    </div>
+
+                    <label for="gender">GENDER</label>
+                    <div class="radio-group group">
+
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <br>
+
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                    </div>
+                    <div class="dob">
+                        <label for="dob">DOB</label>
+                        <input type="date" id="dob" name="dob" placeholder="Dd-Mm-Yyyy">
+                    </div>
+
+                    <label for="skills">SKILLS</label>
+                    <div class="checkbox-group group">
+                        <input type="checkbox" id="html" name="skills" value="html">
+                        <label for="html">HTML</label>
+                        <br>
+
+                        <input type="checkbox" id="css" name="skills" value="css">
+                        <label for="css">CSS</label>
+                        <br>
+
+                        <input type="checkbox" id="js" name="skills" value="javascript">
+                        <label for="js">JavaScript</label>
+                    </div>
+
+                    <label for="reason">WHY JOINING THIS EVENT?</label>
+                    <textarea id="reason" name="reason" rows="8" placeholder="Reason For Joining This Event"></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
